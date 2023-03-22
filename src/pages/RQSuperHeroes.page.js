@@ -16,7 +16,7 @@ export const RQSuperHeroes = () => {
   );
 
   if (isLoading) {
-    return <h2>Loading...</h2>;
+    return <h2>Loading..</h2>;
   }
 
   if (isError) {
